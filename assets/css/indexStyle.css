@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap');
+
+/** general selectors properties  
+  */
+
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFEFC;
+    box-sizing: border-box;
+}
+
+h1, h3, h4, h5 , h6  {
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+.list-item {
+
+    text-decoration: none;
+    list-style: none;
+
+}
+
+/** end of  general properties  */
+
+
+/** nav & header selectors */
+
+.page-header a {
+
+    text-decoration: none;
+    font-size: 0.85em;
+    font-weight: bold;
+
+    border-radius: 10px;
+
+}
+
+.page-top-nav {
+
+    border-bottom: 1px solid rgba(73, 73, 73, 0.2);
+    background-color: #FFFEFC;
+    overflow: hidden;
+    margin: 0 5px;
+
+}
+
+.header-ico {
+    float: left;
+    width: 20%;
+    margin-left: 10px;
+    padding-top: 5px
+}
+
+.web-pages-links {
+
+    float: left;
+    width: 55%;
+    margin: auto;
+}
+
+.web-pages-links ul {
+
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    padding: 16pt 0;
+    margin: auto;
+    font-size: 1em;
+}
+
+.web-pages-links ul .header-items a {
+
+    color: #4C44A5;
+    font-weight: 900;
+    font-size: 0.95em;
+
+}
+
+.web-pages-links ul .header-items a:hover {
+
+    background-color: #F7F6F4;
+    padding: 7px 11px;
+    border-radius: 10px;
+
+}
+
+.header-links {
+    float: right;
+    width: 15%;
+}
+
+.header-links ul {
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15pt;
+}
+
+.header-links .signup-btn {
+
+    background-color: #7266F8;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #F7F6F4;
+    box-shadow: 0px 0.32592591643333435px 0.7333333492279053px 0px rgb(0 0 0 / 12%),
+        0px 1.540740728378296px 2.866666555404663px 0px rgb(0 0 0 / 7%),
+        0px 4px 9px 0px rgb(0 0 0 / 5%);
+}
+
+.header-links .signup-btn:hover {
+
+    background-color: #4C44A5
+}
+
+
+.header-links .signin-btn {
+
+    color: #4C44A5;
+    margin-left: 10px;
+    font-weight: 900;
+    box-shadow: 0px 0.32592591643333435px 0.7333333492279053px 0px rgb(0 0 0 / 12%),
+        0px 1.540740728378296px 2.866666555404663px 0px rgb(0 0 0 / 7%),
+        0px 4px 9px 0px rgb(0 0 0 / 5%);
+    padding: 9px 15px;
+
+}
+
+.header-links .signin-btn:hover {
+
+
+    background-color: #F7F6F4;
+
+}
+
+
+/** end of nav & header selectors */
+
+
+/**  Start of main Selectors */
+
+.container {
+
+    width: 95%;
+
+}
+
+.main-section {
+
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    
+}
+
+.main-section > .main-content,.main-img{
+
+    margin: 9% auto;
+
+}
+
+.main-img {
+
+    margin: 8% auto;
+
+}
+
+.main-content {
+
+    width: 60%;
+    padding-left: 55px;
+
+}
+
+.main-section .main-content h1 {
+
+    color: #0A0A0A; 
+    font-size: 3.6em;
+    line-height: 1em;
+    margin-bottom: 35px;
+
+}
+
+.main-section .main-content h2 {
+
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #7266F8;
+    font-weight: 800;
+} 
+
+.main-section .main-content p {
+
+    width: 70%;
+    font-weight: 500;
+    margin-bottom: 2em;
+}
+
+.main-section .main-content a {
+
+    text-decoration: none;
+    color: #F7F6F4;
+    background-color: #6C41ED;
+    padding: 0.8em 1.3em;
+    font-weight: 900;
+    border-radius: 10px;
+    text-transform: uppercase;
+    box-shadow: 0px 0.32592591643333435px 0.7333333492279053px 0px rgb(0 0 0 / 12%),
+    0px 1.540740728378296px 2.866666555404663px 0px rgb(0 0 0 / 7%),
+    0px 4px 9px 0px rgb(0 0 0 / 5%);
+    
+}
+.main-section .main-content a:hover {
+
+    background-color: #4C44A5
+}
+
+
+/** end of main selectors  */
+
+/** footer selectors   */
+
+#footer-section {
+
+    padding: 10px;
+    border-top: 1px solid rgb(10, 10, 10,0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-section p {
+
+    background-color: #ffffff;
+    padding-top: 11px;
+    padding-right: 10px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#footer-section,
+.socialMedia {
+
+
+    background-color: #ffffff;
+
+
+
+}
+
+.socialMedia a {
+
+    background-color: #ffffff;
+    margin-left: 5px;
+}
+
+.socialMedia a img {
+
+    background-color: #ffffff;
+
+}
+
+
+
+/** end of footer selectors   */

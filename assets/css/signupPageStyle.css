@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap');
+
+/** general selectors properties  */
+
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFEFC;
+    box-sizing: border-box;
+}
+
+/** end general selectors properties  */
+
+
+/** header selectors properties  */
+
+#page-header {
+
+    padding: 0px 7px;
+    
+}
+
+#nav-section {
+
+    border-bottom: 1px solid rgb(39, 39, 39,0.2);
+
+}
+
+#nav-section img {
+
+    margin: 5px
+
+}
+
+/** end header selectors properties  */
+
+
+/** begin main selectors  */
+
+#main-section {
+
+    height: fit-content;
+    text-align: center;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-top:15px
+}
+
+.main-content {
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 15px;
+
+}
+
+
+.rowflex  {
+
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    padding: 10px;
+
+    
+}
+
+
+
+.main-content fieldset {
+    border-radius: 15px;
+    box-shadow: 0px 0.32592591643333435px 0.7333333492279053px 0px rgb(0 0 0 / 12%),
+    0px 1.540740728378296px 2.866666555404663px 0px rgb(0 0 0 / 7%),
+    0px 4px 9px 0px rgb(0 0 0 / 5%);
+    padding: 0 50px ;
+
+}
+
+.main-content label {
+
+    text-align: left;
+    margin-right: 5px;
+    font-size: 0.95em;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+}
+
+.main-content label::after {
+
+    content:' *';
+    color: red;
+
+}
+
+.main-content input, select {
+
+    width: 100%;
+    padding: 9px;
+    border-radius: 5px;
+    border: 1px solid #c5c5c4;
+    margin-bottom: 10px;    
+}
+
+
+.main-content legend {
+
+    padding: 5px;
+    font-size: 0.81em;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    background-color: #7E56DA;
+    
+}
+
+.main-content legend h1 {
+    background-color: #7E56DA;
+    color: #fff;
+}
+
+.userCreden h2 {
+    
+    padding: 5px 0;
+    font-size: 1.4em;
+
+}
+
+.userCreden {
+
+    border-bottom: 1px solid rgb(0, 0, 0,0.2);
+
+}
+
+.userCreden input {
+
+    width: 50%;
+
+}
+
+.userCreden input[name=confirm-password] {
+
+    margin-left: 15px;
+
+}
+
+.userInfo {
+
+    padding-top: 15px;
+
+}
+
+.userInfo h2{
+
+    font-size: 1.4em;
+
+}
+
+.userInfo input[type=file] {
+
+    width: 90%;
+
+}
+
+form {
+
+    width: 80%;
+
+}
+
+#acc-exist {
+
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+#acc-exist a {
+
+    text-decoration: none;
+    color: #613EB7;
+
+}
+
+#acc-exist a:hover {
+
+    text-decoration: underline;
+    color: #7E56DA
+}
+
+#submit-user-cred {
+
+    width: 70%;
+    cursor: pointer;
+    background-color: #613EB7;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+.rowflex div {
+
+    margin-left: 10px;
+    width: 80%;
+}
+
+
+/** end main selectors  */
+
+/** footer selectors   */
+
+#site-footer {
+
+    padding: 10px;
+    border-top: 1px solid rgb(10, 10, 10,0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+#site-footer p  {
+
+    padding-top: 11px;
+    padding-right: 10px;
+    color: #000000;
+    font-size: 14px;
+}
+
+
+
+.socialMedia a {
+
+
+    margin-left: 5px;
+}
+
+input:focus {
+
+    background-color: #e4e1e1
+
+}
+
+
+/** end of footer selectors   */
